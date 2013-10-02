@@ -1,0 +1,21 @@
+<h2>{{title}}</h2>
+
+{{> body}}
+
+<h2>Tags</h2>
+<ul>
+  {{#each tags}}
+    <li>
+      {{tag}}
+    </li>
+  {{/each}}
+</ul>
+
+<h2>Related Pages</h2>
+<ul>
+  {{#each page.related}}
+    <li>
+      <a href="{{relative ../page.dest this.dest}}">{{this.data.title}}</a>
+    </li>
+  {{/each}}
+</ul>
