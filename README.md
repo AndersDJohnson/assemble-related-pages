@@ -6,6 +6,10 @@ Current implementation uses tags, and defines related pages as those that share 
 
 For now, this depends on [my modified version of Assemble](https://github.com/AndersDJohnson/assemble), which supports plugins. Hopefully that makes it into Assemble proper ([see my pull request](https://github.com/assemble/assemble/pull/325)).
 
+```sh
+npm install --save-dev git://github.com/AndersDJohnson/assemble#master
+```
+
 ## Usage
 
 First, setup a project with Grunt and Assemble.
