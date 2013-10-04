@@ -1,4 +1,4 @@
-# assemble-related-pages
+# assemble-related-pages [![NPM version](https://badge.fury.io/js/assemble-related-pages.png)](http://badge.fury.io/js/assemble-related-pages)
 
 An [Assemble](http://assemble.io) plugin for generating lists of related pages. 
 
