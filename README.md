@@ -4,12 +4,6 @@ An [Assemble](http://assemble.io) plugin for generating lists of related pages.
 
 Current implementation uses tags, and defines related pages as those that share at least one tag.
 
-For now, this depends on [my modified version of Assemble](https://github.com/adjohnson916/assemble), which supports plugins. Hopefully that makes it into Assemble proper ([see my pull request](https://github.com/assemble/assemble/pull/325)).
-
-```sh
-npm install --save-dev git://github.com/adjohnson916/assemble#master
-```
-
 ## Usage
 
 First, setup a project with Grunt and Assemble.
@@ -25,7 +19,7 @@ Add the plugin to your Grunt assemble config:
 ```js
 assemble: {
   options: {
-    plugins: [ require('assemble-related-pages')() ]
+    plugins: [ 'assemble-related-pages' ]
   },
   pages: {
     src: ['docs/*.hbs'],
