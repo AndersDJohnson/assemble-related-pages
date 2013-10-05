@@ -3,7 +3,7 @@
 [![NPM version](https://badge.fury.io/js/assemble-plugin-related-pages.png)](http://badge.fury.io/js/assemble-plugin-related-pages)
 [![NPM dependencies](https://david-dm.org/AndersDJohnson/assemble-plugin-related-pages.png)](https://david-dm.org/AndersDJohnson/assemble-plugin-related-pages)
 
-An [Assemble](http://assemble.io) plugin for generating lists of related pages. 
+> An [Assemble](http://assemble.io) plugin for generating lists of related pages. 
 
 Current implementation uses tags, and defines related pages as those that share at least one tag.
 
