@@ -1,6 +1,6 @@
 {
   "name": "assemble-plugin-related-pages",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "An Assemble plugin for generating lists of related pages.",
   "main": "lib/index.js",
   "scripts": {
