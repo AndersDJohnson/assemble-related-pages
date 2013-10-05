@@ -1,6 +1,6 @@
 module.exports = function (grunt) {
 
-  var relatedTags = require('./lib/index')();
+  //var relatedTags = require('./lib/index')();
 
   grunt.initConfig({
     assemble: {
@@ -9,7 +9,7 @@ module.exports = function (grunt) {
           engine: 'handlebars',
           layout: 'example/1/src/layouts/default.hbs',
           plugins: [
-            relatedTags
+            './lib/*.js'
           ]
         },
         files: [
