@@ -1,7 +1,7 @@
-# assemble-plugin-related-pages
+# assemble-related-pages
 
-[![NPM version](https://badge.fury.io/js/assemble-plugin-related-pages.png)](http://badge.fury.io/js/assemble-plugin-related-pages)
-[![NPM dependencies](https://david-dm.org/adjohnson916/assemble-plugin-related-pages.png)](https://david-dm.org/adjohnson916/assemble-plugin-related-pages)
+[![NPM version](https://badge.fury.io/js/assemble-related-pages.png)](http://badge.fury.io/js/assemble-related-pages)
+[![NPM dependencies](https://david-dm.org/adjohnson916/assemble-related-pages.png)](https://david-dm.org/adjohnson916/assemble-related-pages)
 
 > An [Assemble](http://assemble.io) plugin for generating lists of related pages. 
 
@@ -14,7 +14,7 @@ First, setup a project with Grunt and Assemble.
 Then install the plugin: 
 
 ```sh
-npm install --save-dev assemble-plugin-related-pages
+npm install --save-dev assemble-related-pages
 ```
 
 Add the plugin to your Grunt assemble config:
@@ -22,7 +22,7 @@ Add the plugin to your Grunt assemble config:
 ```js
 assemble: {
   options: {
-    plugins: [ 'assemble-plugin-related-pages' ]
+    plugins: [ 'assemble-related-pages' ]
   },
   pages: {
     src: ['docs/*.hbs'],
