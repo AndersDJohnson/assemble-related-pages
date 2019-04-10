@@ -1,32 +1,10 @@
 {
   "name": "assemble-related-pages",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "An Assemble plugin for generating lists of related pages.",
   "main": "lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": {
-    "name": "AndersDJohnson",
-    "url": "https://github.com/AndersDJohnson"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/AndersDJohnson/assemble-related-pages.git"
-  },
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "https://github.com/AndersDJohnson/assemble-related-pages/blob/master/LICENSE-MIT"
-    }
-  ],
-  "engines": {
-    "node": ">= 0.8.0"
-  },
-  "devDependencies": {
-    "assemble": "~0.4.10",
-    "grunt": "~0.4.1"
   },
   "keywords": [
     "assemble",
@@ -94,5 +72,23 @@
     "web framework",
     "yaml front matter",
     "yaml"
-  ]
+  ],
+  "author": "Anders D. Johnson (https://andersdjohnson.com)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AndersDJohnson/assemble-related-pages.git"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/AndersDJohnson/assemble-related-pages/blob/master/LICENSE-MIT"
+    }
+  ],
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "devDependencies": {
+    "assemble": "~0.4.10",
+    "grunt": "~0.4.1"
+  }
 }
